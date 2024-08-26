@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.app-cont {
+  display: flex;
+  height: 100vh;
+}
+
+.event-main-cont {
+  background-image: linear-gradient(to top, #3a4b63, #64748b);
+  padding: 5rem 5rem;
+  width: 70%;
+  overflow-y: scroll;
+}
+
+.title {
+  font-size: 2rem;
+  color: #f8fafc;
+}
+
+.event-list-cont {
+  padding-inline-start: 0;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 5rem;
+}

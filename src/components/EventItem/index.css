@@ -1,0 +1,26 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+}
+
+.event-btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+  text-align: left;
+}
+
+.event-img {
+  height: 25rem;
+}
+
+.event-name {
+  font-size: 1.6rem;
+  color: #ecedf0;
+}
+
+.event-location {
+  font-size: 1.2rem;
+  color: #edf0f4;
+}
